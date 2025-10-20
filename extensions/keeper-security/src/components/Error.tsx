@@ -11,8 +11,9 @@ import {
 import { handleError } from "../lib/error-handler";
 import { ERROR_MESSAGES } from "../lib/constants";
 import CommonActions from "./CommonActions";
+import { KeeperExtensionPreferences } from "../lib/types";
 
-const preferences = getPreferenceValues<ExtensionPreferences>();
+const preferences = getPreferenceValues<KeeperExtensionPreferences>();
 const BASE_API_URL = preferences.apiUrl;
 
 interface ErrorProps {

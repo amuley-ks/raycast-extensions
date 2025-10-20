@@ -1,9 +1,9 @@
 import axios, { AxiosResponse } from "axios";
 import { KEEPER_COMMANDER_CLI_COMMANDS } from "../lib/constants";
 import { getPreferenceValues } from "@raycast/api";
-import { ExtensionPreferences } from "../lib/types";
+import { KeeperExtensionPreferences } from "../lib/types";
 
-const preferences = getPreferenceValues<ExtensionPreferences>();
+const preferences = getPreferenceValues<KeeperExtensionPreferences>();
 
 const BASE_API_URL = `${preferences.apiUrl}/api/v1/executecommand`;
 

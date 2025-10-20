@@ -1,4 +1,4 @@
-export interface ExtensionPreferences {
+export interface KeeperExtensionPreferences {
   apiUrl: string;
   apiKey: string;
 }
