@@ -150,6 +150,8 @@ Example:
   - **Purpose**: View and interact with all your vault records.
 
   - **Available Actions**:
+    - **Show Details** - Displays detailed information about the record.
+    - **Open in Browser** - Opens the record directly in the Web Keeper Vault via your browser.
     - **Copy Login** – Copies the username/email to clipboard (if available in the record)
     - **Copy Password** – Copies the password to clipboard (if available)
     - **One-Time Share Record** – Generates a 7-day shareable link for the record
