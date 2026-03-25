@@ -1,6 +1,6 @@
 # Keeper Security Changelog
 
-## [Bug Fix] - 2026-03-25
+## [Bug Fix] - {PR_MERGE_DATE}
 
 ## [Updated Readme] - 2025-11-04
 
