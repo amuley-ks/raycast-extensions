@@ -201,9 +201,7 @@ export default function MyVault() {
                   tag: {
                     value:
                       String(
-                        RECORD_TYPE_TO_TITLE_MAP[record.type as RecordTypes] ??
-                          camelCaseToWords(record.type) ??
-                          "",
+                        RECORD_TYPE_TO_TITLE_MAP[record.type as RecordTypes] ?? camelCaseToWords(record.type) ?? "",
                       ).trim() || "Record",
                     color: Color.Yellow,
                   },
