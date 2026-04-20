@@ -194,7 +194,7 @@ export default function MyVault() {
             <List.Item
               id={record.recordUid}
               key={record.recordUid}
-              title={listItemDisplayTitle(record.title, record.recordUid)}
+              title={record.title}
               subtitle={record.description}
               accessories={[
                 {

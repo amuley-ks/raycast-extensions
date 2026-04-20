@@ -2,6 +2,8 @@
 
 ## [Bug Fix] - {PR_MERGE_DATE}
 
+- Ensure vault record titles and accessory tag values are never empty or whitespace-only strings
+
 ## [Bug Fix] - 2026-03-25
 
 ## [Updated Readme] - 2025-11-04
